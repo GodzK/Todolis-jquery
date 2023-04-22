@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Cardo:ital@1&family=IBM+Plex+Sans+Thai:wght@500&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'IBM Plex Sans Thai ', sans-serif;
+}
+body{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(#9455ad ,#5f0d80,#29003a);
+}
+.card{
+    width: 500px;
+    height: 530px;
+    background: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 10);/*ทำเงา*/
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.form {
+    width: 100%;
+    margin: 20px;
+    display: flex;
+    justify-content: center;
+}
+#txt{
+    width: 70%;
+    padding: 10px;
+    font-size: 1rem;
+    ;
+    border-radius: 10px;
+    background-color: #f2f2f2;
+    outline: none;
+    margin-right: 10px;
+}
+#btn {
+    cursor: pointer;
+}
+.items-control {
+    width: 100%;
+    height: 100%;
+    overflow: auto; /*ถ้าเกิดข้อมูรเกินก็สามารถscrollได้*/
+    display: flex;
+    flex-direction: column;
+
+}
+.btn-control{
+    border: none;
+    display: flex;
+    cursor: pointer;
+}
+.items{
+    padding: 10px;
+    background: #f4dcff;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    display: flex;/*ทำให้เเต่ละlist มาอยู่ติดกัน ไม่เว้น*/
+    justify-content: space-between;
+    align-items: center;
+    font-weight: bold;
+}
